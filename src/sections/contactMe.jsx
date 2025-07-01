@@ -3,9 +3,9 @@ import { motion } from "motion/react";
 export function ContactMe() {
     return (
         <div className="relative mx-auto my-10 flex max-w-7xl flex-col items-center justify-center">
-<div className="absolute inset-x-0 bottom-0 h-px w-full bg-neutral-200/80 dark:bg-neutral-800/80">
-    <div className="absolute right-0 ml-auto h-px w-40 bg-gradient-to-r from-transparent via-blue-500 to-transparent" />
-</div>
+            <div className="absolute inset-x-0 bottom-0 h-px w-full bg-neutral-200/80 dark:bg-neutral-800/80">
+                <div className="absolute right-0 ml-auto h-px w-40 bg-gradient-to-r from-transparent via-blue-500 to-transparent" />
+            </div>
 
             <div className="px-4 py-10 md:py-20 w-full">
                 <h1 className="relative z-10 mx-auto max-w-4xl text-center">
