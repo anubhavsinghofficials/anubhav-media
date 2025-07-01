@@ -4,7 +4,7 @@ export function MyClients() {
     const clientsData = [
       {
         imageUrl:
-          "/src/assets/clients/sow-square.png",
+          "clients/sow-square.png",
         name: "Sowmya Sasun",
         profile: "Content Creator",
         socialLink: "https://www.instagram.com/sowmyasasunn/",
@@ -14,7 +14,7 @@ export function MyClients() {
       },
       {
         imageUrl:
-          "/src/assets/clients/meridianmix-square.png",
+          "clients/meridianmix-square.png",
         name: "Ishank Ghulati",
         profile: "Meridian Mix Tech Ventures",
         socialLink: "https://meridianmix.com/",
@@ -23,7 +23,7 @@ export function MyClients() {
       },
       {
         imageUrl:
-          "/src/assets/clients/pratilipifm-square.png",
+          "clients/pratilipifm-square.png",
         name: "Pratilipi Team",
         profile: "Pratilipi FM",
         socialLink: "https://pratilipifm.com/",
