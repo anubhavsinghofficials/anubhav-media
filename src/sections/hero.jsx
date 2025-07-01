@@ -1,7 +1,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Spotlight } from "@/components/ui/spotlight-new";
 import { motion } from "motion/react";
-import vslVideoUrl from "@/assets/anubhav_vsl.mp4";
+import vslVideoUrl from "/anubhav_vsl.mp4";
 import { CustomVideoPlayer } from "@/components/custom/CustomVideoPlayer"; // ✅ Make sure this path matches where you put the component
 
 export function HeroSectionOne() {
@@ -89,7 +89,7 @@ export function HeroSectionOne() {
           className="relative z-10 mt-8 md:mt-16 rounded-3xl border border-neutral-200 bg-neutral-100 p-2 md:p-4 shadow-md dark:border-neutral-800 dark:bg-neutral-900">
           <div
             className="w-full overflow-hidden rounded-xl border border-gray-300 dark:border-gray-700">
-            <CustomVideoPlayer videoUrl={vslVideoUrl} posterUrl={`/src/assets/vsl-thumbnail-2.png`} />
+            <CustomVideoPlayer videoUrl={vslVideoUrl} posterUrl={`  /vsl-thumbnail-2.png`} />
           </div>
         </motion.div>
       </div>
@@ -103,7 +103,7 @@ const Navbar = () => {
       className="flex w-full items-center justify-between border-t border-b border-neutral-200 px-4 py-4 dark:border-neutral-800">
       <div className="flex items-center gap-2">
         <Avatar>
-          <AvatarImage src="/src/assets/anubhav-profile-pic.png" />
+          <AvatarImage src="/anubhav-profile-pic.png" />
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
         <h1 className="text-base font-bold md:text-2xl">Anubhav Singh</h1>

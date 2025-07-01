@@ -21,13 +21,13 @@ export default function Carousel() {
 
   // Sample data - replace with your content
   const items = [
-    { title: 'Health & Fitness', subtitle: 'Youtube Short', image: '/src/assets/videos/health-thumbnail.png', videoUrl: '/src/assets/videos/health.mp4' },
-    { title: 'Motivational', subtitle: 'Instagram Reel', image: '/src/assets/videos/motivational-thumbnail.png', videoUrl: '/src/assets/videos/motivational.mp4' },
-    { title: 'Sass Advertisement', subtitle: 'Facebook Advertisement', image: '/src/assets/videos/sass-ad-thumbnail.png', videoUrl: '/src/assets/videos/sass-ad.mp4' },
-    { title: 'Channel Trailer', subtitle: 'Youtube Video', image: '/src/assets/videos/channel-trailer-thumbnail.png', videoUrl: '/src/assets/videos/channel-trailer.mp4' },
-    { title: 'Festival Promo', subtitle: 'Instagram Reel', image: '/src/assets/videos/festival-promo-thumbnail.png', videoUrl: '/src/assets/videos/festival-promo.mp4' },
-    { title: 'Tech & Ai', subtitle: 'TikTok Video', image: '/src/assets/videos/tech-thumbnail.png', videoUrl: '/src/assets/videos/tech.mp4' },
-    { title: 'Travel Advertisement', subtitle: 'Facebook Advertisement', image: '/src/assets/videos/travel-ad-thumbnail.png', videoUrl: '/src/assets/videos/travel-ad.mp4' },
+    { title: 'Health & Fitness', subtitle: 'Youtube Short', image: '/videos/health-thumbnail.png', videoUrl: '/videos/health.mp4' },
+    { title: 'Motivational', subtitle: 'Instagram Reel', image: '/videos/motivational-thumbnail.png', videoUrl: '/videos/motivational.mp4' },
+    { title: 'Sass Advertisement', subtitle: 'Facebook Advertisement', image: '/videos/sass-ad-thumbnail.png', videoUrl: '/videos/sass-ad.mp4' },
+    { title: 'Channel Trailer', subtitle: 'Youtube Video', image: '/videos/channel-trailer-thumbnail.png', videoUrl: '/videos/channel-trailer.mp4' },
+    { title: 'Festival Promo', subtitle: 'Instagram Reel', image: '/videos/festival-promo-thumbnail.png', videoUrl: '/videos/festival-promo.mp4' },
+    { title: 'Tech & Ai', subtitle: 'TikTok Video', image: '/videos/tech-thumbnail.png', videoUrl: '/videos/tech.mp4' },
+    { title: 'Travel Advertisement', subtitle: 'Facebook Advertisement', image: '/videos/travel-ad-thumbnail.png', videoUrl: '/videos/travel-ad.mp4' },
   ];
 
   // Get the actual item width including margin

@@ -28,7 +28,7 @@ export function ContactMe() {
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 px-6 py-4 rounded-lg bg-neutral-800 text-white shadow-md hover:shadow-lg transition-all"
                     >
-                        <img src="/src/assets/icons/x.png" alt="X" className="w-5 h-5" />
+                        <img src="/icons/x.png" alt="X" className="w-5 h-5" />
                         <span className="font-semibold">DM me on X</span>
                     </a>
 
@@ -39,7 +39,7 @@ export function ContactMe() {
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 px-6 py-4 rounded-lg bg-green-500 text-white shadow-md hover:shadow-lg transition-all"
                     >
-                        <img src="/src/assets/icons/whatsapp.png" alt="Whatsapp" className="w-5 h-5" />
+                        <img src="/icons/whatsapp.png" alt="Whatsapp" className="w-5 h-5" />
                         <span className="font-semibold">DM me on WhatsApp</span>
                     </a>
 
@@ -50,7 +50,7 @@ export function ContactMe() {
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 px-6 py-4 rounded-lg bg-[#006BFF] text-white shadow-md hover:shadow-lg transition-all"
                     >
-                        <img src="/src/assets/icons/calendly.png" alt="Calendly" className="w-5 h-5" />
+                        <img src="/icons/calendly.png" alt="Calendly" className="w-5 h-5" />
                         <span className="font-semibold">Schedule a Meeting</span>
                     </a>
 
@@ -61,7 +61,7 @@ export function ContactMe() {
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 px-6 py-4 rounded-lg bg-red-600 text-white shadow-md hover:shadow-lg transition-all"
                     >
-                        <img src="/src/assets/icons/gmail.png" alt="Email" className="w-5 h-5" />
+                        <img src="/icons/gmail.png" alt="Email" className="w-5 h-5" />
                         <span className="font-semibold">Reach out to me on Email</span>
                     </a>
                 </div>
