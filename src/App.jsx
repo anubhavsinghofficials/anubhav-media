@@ -3,6 +3,7 @@ import { BestWork } from "./sections/bestwork"
 import { MyClients } from "./sections/myClients"
 import { ContactMe } from "./sections/contactMe"
 import { useEffect } from "react"
+import { Toaster } from "@/components/ui/sonner"
 
 function App() {
   useEffect(() => {
@@ -16,6 +17,8 @@ function App() {
   return (
     <>
       <div class="container mx-auto px-4 bg-black relative overflow-hidden">
+        <Toaster />
+        
         <HeroSectionOne />
         <BestWork />
         <MyClients />
