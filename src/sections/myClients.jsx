@@ -23,7 +23,7 @@ export function MyClients() {
       },
       {
         imageUrl:
-          "clients/pratilipifm-square.png",
+          "clients/pratilipifm-square-trans.png",
         name: "Pratilipi Team",
         profile: "Pratilipi FM",
         socialLink: "https://pratilipifm.com/",
