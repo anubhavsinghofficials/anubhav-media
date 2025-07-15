@@ -4,6 +4,7 @@ import { MyClients } from "./sections/myClients"
 import { ContactMe } from "./sections/contactMe"
 import { useEffect } from "react"
 import { Toaster } from "@/components/ui/sonner"
+import { ObjectionHandler } from "./sections/objectionHandler"
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
         
         <HeroSectionOne />
         <BestWork />
+        <ObjectionHandler/>
         <MyClients />
         <ContactMe />
       </div>
