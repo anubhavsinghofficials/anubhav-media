@@ -46,7 +46,7 @@ export function ObjectionHandler() {
                     >
                         <div className="absolute left-2 top-0 h-0 w-0 -translate-y-[0.55rem] -translate-x-2 border-r-[18px] border-t-[18px] border-b-[18px] border-r-[#1C1F22] border-t-transparent border-b-transparent -rotate-90" />
 
-                        😩 I'm tired of Editors
+                        😭 I'm tired of Editors
                     </motion.div>
                     {objections.map((text, index) => (
                         <motion.div
