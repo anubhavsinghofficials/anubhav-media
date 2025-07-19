@@ -5,9 +5,7 @@ import { CustomVideoPlayer2 } from "@/components/custom/CustomVideoPlayer2"; // 
 import {
   Credenza,
   CredenzaBody,
-  CredenzaClose,
   CredenzaContent,
-  CredenzaFooter,
   CredenzaTrigger,
 } from "@/components/ui/credenza"
 
@@ -23,7 +21,7 @@ export default function Carousel() {
   const items = [
     { title: 'Health & Fitness', subtitle: 'Youtube Short', image: '/videos/health-thumbnail.png', videoUrl: '/videos/health.mp4' },
     { title: 'Motivational', subtitle: 'Instagram Reel', image: '/videos/motivational-thumbnail.png', videoUrl: '/videos/motivational.mp4' },
-    { title: 'Sass Advertisement', subtitle: 'Facebook Advertisement', image: '/videos/sass-ad-thumbnail.png', videoUrl: '/videos/sass-ad.mp4' },
+    { title: 'Business Promo', subtitle: 'Facebook Advertisement', image: '/videos/business-promo-thumbnail.png', videoUrl: '/videos/business-promo.mp4' },
     { title: 'Channel Trailer', subtitle: 'Youtube Video', image: '/videos/channel-trailer-thumbnail.png', videoUrl: '/videos/channel-trailer.mp4' },
     { title: 'Festival Promo', subtitle: 'Instagram Reel', image: '/videos/festival-promo-thumbnail.png', videoUrl: '/videos/festival-promo.mp4' },
     { title: 'Tech & Ai', subtitle: 'TikTok Video', image: '/videos/tech-thumbnail.png', videoUrl: '/videos/tech.mp4' },
