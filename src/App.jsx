@@ -5,6 +5,7 @@ import { ContactMe } from "./sections/contactMe"
 import { useEffect } from "react"
 import { Toaster } from "@/components/ui/sonner"
 import { ObjectionHandler } from "./sections/objectionHandler"
+import { Experimental } from "./sections/experimental"
 
 function App() {
   useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
         
         <HeroSectionOne />
         <BestWork />
+        <Experimental />
         <ObjectionHandler/>
         <MyClients />
         <ContactMe />
