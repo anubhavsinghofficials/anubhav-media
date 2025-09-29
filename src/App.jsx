@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <div class="container mx-auto px-4 bg-black relative overflow-hidden">
+      <div className="container mx-auto px-4 bg-black relative overflow-hidden">
         <Toaster />
         
         <HeroSectionOne />
