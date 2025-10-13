@@ -43,7 +43,7 @@ export function ContactMe() {
 
                     {/* WhatsApp Button */}
                     <a
-                        href="https://wa.me/917982808427"
+                        href="https://wa.me/919310843280"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 px-6 py-4 rounded-lg bg-green-500 text-white shadow-md hover:shadow-lg transition-all"
