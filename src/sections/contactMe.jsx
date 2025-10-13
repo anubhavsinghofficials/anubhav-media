@@ -73,7 +73,7 @@ export function ContactMe() {
                                 className="leading-tight flex items-center justify-center gap-2 px-6 py-4 rounded-lg bg-red-600 text-white shadow-md hover:shadow-lg transition-all"
                             >
                                 <img src="/icons/gmail.png" alt="Email" className="w-5 h-5" />
-                                <span className="font-semibold">Reach out to me on Email</span>
+                                <span className="font-semibold">anubhavmediax@gmail.com</span>
                             </a>
                         </CredenzaTrigger>
                         <CredenzaContent>
