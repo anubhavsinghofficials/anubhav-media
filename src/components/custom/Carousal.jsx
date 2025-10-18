@@ -19,7 +19,7 @@ export default function Carousel() {
 
   // Sample data - replace with your content
   const items = [
-    { title: 'Health & Fitness', subtitle: 'Youtube Short', image: '/videos/health-thumbnail.png', videoUrl: '/videos/health.mp4' },
+    { title: 'Talking Head', subtitle: 'Instagram Reel', image: '/videos/talking-head-thumbnail.png', videoUrl: '/videos/talking-head.mp4' },
     { title: 'Educational', subtitle: 'Youtube Short', image: '/videos/educational-thumbnail.png', videoUrl: '/videos/educational.mp4' },
     { title: 'Festival Promo', subtitle: 'Instagram Reel', image: '/videos/festival-promo-thumbnail.png', videoUrl: '/videos/festival-promo.mp4' },
     { title: 'Tech & Ai', subtitle: 'TikTok Video', image: '/videos/tech-thumbnail.png', videoUrl: '/videos/tech.mp4' },
