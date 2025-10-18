@@ -24,7 +24,8 @@ export function ContactMe() {
                         transition={{ duration: 0.5 }}
                         className="text-4xl lg:text-6xl font-extrabold text-blue-500 dark:text-blue-400 drop-shadow-[0_0_20px_rgba(59,130,246,1)]"
                     >
-                        Ready to take your content to a new level?
+                        {/* Ready to take your content to a new level? */}
+                        Sounds good?
                     </motion.div>
                 </h1>
 
