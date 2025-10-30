@@ -24,10 +24,7 @@ export default function Carousel() {
     { title: 'Educational', subtitle: 'Youtube Short', image: '/videos/educational-thumbnail.png', videoUrl: '/videos/educational.mp4' },
     { title: 'Festival Promo', subtitle: 'Instagram Reel', image: '/videos/festival-promo-thumbnail.png', videoUrl: '/videos/festival-promo.mp4' },
     { title: 'Tech & Ai', subtitle: 'TikTok Video', image: '/videos/tech-thumbnail.png', videoUrl: '/videos/tech.mp4' },
-    { title: 'Ecom AD', subtitle: 'E-commerce Advertisement', image: '/videos/ecom-ad-thumbnail.png', videoUrl: '/videos/ecom-ad.mp4' },
     { title: 'Business Promo', subtitle: 'Facebook Advertisement', image: '/videos/business-promo-thumbnail.png', videoUrl: '/videos/business-promo.mp4' },
-    { title: 'SASS AD', subtitle: 'Youtube Video', image: '/videos/sass-ad-thumbnail.png', videoUrl: '/videos/sass-ad.mp4' },
-    { title: 'Travel Advertisement', subtitle: 'Facebook Advertisement', image: '/videos/travel-ad-thumbnail.png', videoUrl: '/videos/travel-ad.mp4' },
   ];
 
   // Get the actual item width including margin
